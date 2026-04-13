@@ -14,4 +14,4 @@ And I saw the following in the comment: THIS IS HIDDEN FLAG. This demonstrates 
     strings computer.jpg
 I extracted every printable character sequence from the binary file computer.jpg using the strings command.
 
-![image alt](
+![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/90648a7e61883ffc2cb370704a70fadf2642cf78/image/Screenshot%202026-04-13%20152149.png)
