@@ -45,4 +45,4 @@ A directory called _dog.jpg.extracted was created when the hidden archive was ex
 I discovered a file called hidden_text.txt within and opened it to see what was inside.
     
     open hidden_text.txt
-![image alt](
+![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/df3607c12664301da4ac6c02737e486c42684ca5/image/Screenshot%202026-04-13%20151015.png)
