@@ -66,3 +66,5 @@ As we can see here, solitaire.exe turns out to be .png extension. Then, we have 
 The solitaire image can now be opened.
 
 The same applies to rubiks.jpg.
+
+![image alt](
