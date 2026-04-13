@@ -46,3 +46,13 @@ I discovered a file called hidden_text.txt within and opened it to see what was 
     
     open hidden_text.txt
 ![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/df3607c12664301da4ac6c02737e486c42684ca5/image/Screenshot%202026-04-13%20151015.png)
+
+The string "THIS IS A HIDDEN FLAG" was then discovered.
+
+5.0 FILES
+
+    file solitaire.exe
+    file rubiks.jpg
+Regardless of their extensions, I was able to determine true nature of files using the file command.
+
+![image alt](
