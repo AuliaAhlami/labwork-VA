@@ -23,4 +23,13 @@ Standard headers like JFIF and ICC_PROFILE are displayed in the output. In insta
     hexeditor computer.jpg    
 I conducted thorough analysis of the computer's binary data using hex editor.JPG.
 
+![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/96b6de71d7ec837bba1f238885f7a32f4cce16f6/image/Screenshot%202026-04-13%20151516.png)
+
+I tried using W to look specific text strings, like "flags," in the raw hex code (seen by the "Text String" search box). The search yielded "** String not found **" in this particular view, indicating that any hidden data in this file may be encoded, encrypted, or include nothing out of the ordinary.
+
+4.0 BINWALK
+
+    binwalk dog.jpg
+I looked any hidden or embedded files in dog.jpg using binwalk. The scan found a Zip archive beginning at decimal offset 88221. This tool assist in identifying file signatures that might be stored inside another file.
+
 ![image alt](
