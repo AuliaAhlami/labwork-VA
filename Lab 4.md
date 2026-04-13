@@ -37,5 +37,12 @@ I looked any hidden or embedded files in dog.jpg using binwalk. The scan found a
 As far as we are aware, Dog has a Zip archived file.JPG. Then, we can now extract it by using:
 
     binwalk -e dog.jpg
-    
     ls
+A directory called _dog.jpg.extracted was created when the hidden archive was extracted. I then used ls to modify the directory to _dog.jpg.extracted so I could see what was within.
+
+    cd _dog.jpg.extracted
+    ls
+I discovered a file called hidden_text.txt within and opened it to see what was inside.
+    
+    open hidden_text.txt
+![image alt](
