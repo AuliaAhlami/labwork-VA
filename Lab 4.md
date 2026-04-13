@@ -67,4 +67,12 @@ The solitaire image can now be opened.
 
 The same applies to rubiks.jpg.
 
+![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/9f7c4f6b515cd6d44741c68c44bebee4d2de186a/image/Screenshot%202026-04-13%20153350.png)
+
+Rubiks.jpg is actually a.png extension, as we can see here. Once more, we must open the file after changing its extension to.png.
+
+    mv rubiks.jpg rubiks.png
+    open rubiks.png
 ![image alt](
+
+    We may now access the Rubik's image.
