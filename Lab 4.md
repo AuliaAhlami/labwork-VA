@@ -1,4 +1,5 @@
 WEEK 4 : METADATA
+
 1.0 EXIFTOOL
 
     exiftool ocean.jpg
