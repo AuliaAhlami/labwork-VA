@@ -1,5 +1,6 @@
 WEEK 4 : METADATA
 1.0 EXIFTOOL
+
     exiftool ocean.jpg
 I read the metadata ocean using exiftool.jpg. Metadata can be used to conceal messages, but it also frequently reveals details about the file's development.
 
