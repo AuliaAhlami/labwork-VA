@@ -32,4 +32,9 @@ I tried using W to look specific text strings, like "flags," in the raw hex code
     binwalk dog.jpg
 I looked any hidden or embedded files in dog.jpg using binwalk. The scan found a Zip archive beginning at decimal offset 88221. This tool assist in identifying file signatures that might be stored inside another file.
 
-![image alt](
+![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/1aa1b433275994596af546f50502f72a13bf2998/image/Screenshot%202026-04-13%20152441.png)
+
+As far as we are aware, Dog has a Zip archived file.JPG. Then, we can now extract it by using:
+
+    binwalk -e dog.jpg
+    ls
