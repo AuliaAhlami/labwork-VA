@@ -55,4 +55,10 @@ The string "THIS IS A HIDDEN FLAG" was then discovered.
     file rubiks.jpg
 Regardless of their extensions, I was able to determine true nature of files using the file command.
 
+![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/bea44fe427e2d6f53e0b1285dea0c52548142410/image/Screenshot%202026-04-13%20153325.png)
+
+As we can see here, solitaire.exe turns out to be .png extension. Then, we have to change the file's extension to .png and open it.
+
+    mv solitaire.exe solitaire.png
+    open solitaire.png
 ![image alt](
