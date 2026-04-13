@@ -73,6 +73,6 @@ Rubiks.jpg is actually a.png extension, as we can see here. Once more, we must o
 
     mv rubiks.jpg rubiks.png
     open rubiks.png
-![image alt](
+![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/862f48278da79b3639bfd319bd47c191cd17dcfb/image/Screenshot%202026-04-13%20153247.png)
 
     We may now access the Rubik's image.
