@@ -1,6 +1,6 @@
 VulnHub BlueMoon Machine Walkthrough
 
-In this walkthrough, I performed penetration testing on the Bluemoon: 2021 vulnerable machine from VulnHub. The objective of this lab is to obtain flags by gaining access to the system and eventually escalating privileges to root.
+This walkthrough, I performed penetration testing on the Bluemoon: 2021 vulnerable machine from VulnHub. The objective lab is to obtain flags by gaining access to the system and eventually escalating privileges to root.
 
 Step 1 – Finding the Target IP Address
 
@@ -24,7 +24,7 @@ This command displays the network interface information, including the IP addres
 
 From the output, I identified my IP address and determined that my network range was:
 
-192.168.0.0/24
+192.168.100.47
 
 This information is important because it allows me to know which network range to scan when searching for the target machine.
 
@@ -34,11 +34,11 @@ Next, I scanned the network to discover active devices and identify the IP addre
 
 I used the following Nmap command:
 
-nmap -sn 192.168.0.0/24
+nmap -sn 192.168.100.47
 
 This command performs a ping scan to find active hosts in the network.
 
-From the results, I found the target machine with the following IP address: 192.168.0.24
+From the results, I found the target machine with the following IP address: 192.168.100.47
 
 After identifying the target IP address, I performed a more detailed scan to gather information about open ports and services running on the machine. nmap -sC -sV -Pn -vv 192.168.0.24
 
@@ -48,13 +48,13 @@ After identifying that port 80 (HTTP) was open from the Nmap scan, I decided to 
 
 First, I opened the target IP address in a web browser:
 
-http://192.168.0.24/
+http://192.168.100.47/
 
 The webpage did not reveal much useful information. Because of that, I decided to perform directory enumeration to discover hidden directories on the web server.
 
 To do this, I used Gobuster with a common wordlist:
 
-gobuster dir -u http://192.168.0.24 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+gobuster dir -u http://192.168.100.47 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
 After running the scan, I discovered a hidden directory:
 
@@ -74,7 +74,7 @@ Step 6 – Accessing the FTP Server
 
 Next, I logged into the FTP service using the credentials found from the QR code.
 
-ftp 192.168.0.24
+ftp 192.168.100.47
 
 After logging in, I listed the files:
 
@@ -96,7 +96,7 @@ cat information.txt cat p_lists.txt
 
 Now we going to use hydra tool to crack the password of the Robin.
 
-hydra -l robin -P p_lists.txt ssh://192.168.0.24
+hydra -l robin -P p_lists.txt ssh://192.168.100.47
 
 Login: robin
 
@@ -106,7 +106,7 @@ Step 7 – Getting a User Shell
 
 From the files and information gathered, I was able to log in to the system through SSH as the user robin.
 
-ssh robin@192.168.0.24
+ssh robin@192.168.100.47
 
 Now going to obtain The first flag .
 
