@@ -61,4 +61,8 @@ As we can see here, solitaire.exe turns out to be .png extension. Then, we have 
 
     mv solitaire.exe solitaire.png
     open solitaire.png
-![image alt](
+![image alt](https://github.com/AuliaAhlami/labwork-VA/blob/70c14fab0a2937b0e7dd40bc8d350e66c872d320/image/Screenshot%202026-04-13%20153011.png)
+
+The solitaire image can now be opened.
+
+The same applies to rubiks.jpg.
