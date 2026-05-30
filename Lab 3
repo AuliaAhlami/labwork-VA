@@ -4,4 +4,4 @@ First, we need to perform a lightweight ping scan across the subnetwork to ident
 
 Command : sudo nmap -sn 10.150.150.0/24
 
-![Alt Text](
+![Image Alt](https://github.com/AuliaAhlami/labwork-VA/blob/fbf2118dc030b58679dbfa79f84aaf4445f9cd57/image/Screenshot%202026-05-30%20133137.png)
