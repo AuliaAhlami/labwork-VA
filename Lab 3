@@ -4,3 +4,4 @@ First, we need to perform a lightweight ping scan across the subnetwork to ident
 
 Command : sudo nmap -sn 10.150.150.0/24
 
+![Alt Text](
